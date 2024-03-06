@@ -1,0 +1,70 @@
+// ---------------color-sait-------------
+
+$mainColor: #e9e7e7;
+$secondaryColor: #232323;
+$colorFooter: #c4c4c4;
+ 
+// --------------color-text-------------
+
+$colorText: #232323;
+$secondaryColorText: #e9e7e7;
+$colorLink: #515155;
+$colorTextReview: #6d6d6d;
+
+// -------------font-size---------------
+
+$mobHeaderTitle: calc(45px + (81.5 - 45) * (100vw - 320px) / (740 - 320));
+
+$mobTitlinHe: calc(50px + (81.5 - 50) * (100vw - 320px) / (740 - 320));
+
+$mobLink: calc(16px + (20.9 - 16) * (100vw - 320px) / (740 - 320));
+
+$mobButton: calc(16px + (20.9 - 16) * (100vw - 320px) / (740 - 320));
+
+$mobGalleryTit: calc(28px + (36.4 - 28) * (100vw - 320px) / (420 - 320));
+
+$mobseePlacesTit: calc(45px + (97.7 - 45) * (100vw - 320px) / (740 - 320));
+
+$mobseePlacesSubTit: calc(27px + (36.4 - 27) * (100vw - 320px) / (740 - 320));
+
+$mobseePlacesSubTitLH: calc(40px + (50 - 40) * (100vw - 320px) / (740 - 320));
+
+$mobseePlacesSvg: calc(30px + (55 - 30) * (100vw - 320px) / (740 - 320));
+
+$mobMyChooseTit: calc(40.5px + (55.5 - 40.5) * (100vw - 320px) / (740 - 320));
+
+
+$ourProsContentTitle: calc(40.5px + (81.5 - 40.5) * (100vw - 320px) / (828 - 320));
+
+$ourProsContentLineHei: calc(52px + (81 - 52) * (100vw - 320px) / (828 - 320));
+
+$reviewTitle: calc(45px + (81.5 - 45) * (100vw - 320px) / (740 - 320));
+
+$reviewTitleLineHei: calc(55px + (81 - 55) * (100vw - 320px) / (740 - 320));
+
+$myDataFormTitle: calc(51px + (81.5 - 51) * (100vw - 320px) / (570 - 320));
+
+$myDataormText: calc(14px + (20.9 - 14) * (100vw - 320px) / (570 - 320));
+
+$footerTit: calc(45px + (63.4 - 45) * (100vw - 320px) / (570 - 320));
+
+$quickLinksMobTit: calc(15px + (25.1 - 15) * (100vw - 320px) / (570 - 320));
+
+$footerTitLineHei: calc(50px + (63 - 50) * (100vw - 320px) / (570 - 320));
+
+$footerPar: calc(13px + (20.9 - 13) * (100vw - 320px) / (480 - 320));
+
+// calc(minFont + (norFont - minFont) * (100vw - minWidth) / (norWidth - minWidth));
+
+
+// 740px - 97.7px
+// 320px - 45px
+
+// 740px - 20.9px
+// 320px - 16px
+
+// 420px - 36.4px
+// 320px - 28px
+
+
+

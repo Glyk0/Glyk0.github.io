@@ -1,0 +1,55 @@
+.myData {
+  padding: 115px 8% 214px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+
+.myData-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  &__title {
+    font-size: 81.5px;
+    line-height: 81px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: $colorText;
+    margin-bottom: 36px;
+  }
+  &__text {
+    width: 457px;
+    height: 61px;
+    border: 3px solid $secondaryColor;
+    border-radius: 5px;
+    background-color: transparent;
+    font-family: 'Lato','sans-serif';
+    font-size: 20.9px;
+    line-height: 16px;
+    font-weight: 400;
+    color: $colorText;
+    padding: 22px 0 21px 31px;
+  }
+}
+
+.myData-form__text_sz458 {
+  width: 458px;
+  height: 226px;
+  padding: 22px 0 183px 31px;
+}
+
+.btn-site_sz {
+  width: 457px;
+  height: 66px;
+}
+
+.btn-site_mar {
+  margin-top: 31px;
+}
+
+.picture_sz730 {
+  width: 666px;
+  height: 730px;
+}

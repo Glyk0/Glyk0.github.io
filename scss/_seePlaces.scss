@@ -1,0 +1,129 @@
+.seePlaces {
+  background: url(../images/seePlaces/seePlaces__bgrd_left.png) no-repeat left 40px top 500px / auto, url(../images/seePlaces/seePlaces__bgrd_right.png) no-repeat right 0px top 0px / auto;
+  padding: 166px 8vh 119px 8vh;
+  &__title {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 977px;
+    font-size: 97.7px;
+    line-height: 97px;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: $colorText;
+  }
+}
+
+.seePlaces span {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  margin-top: 63px;
+  &__link {
+    font-family: 'Lato','sans-serif';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 900;
+    letter-spacing: -0.025em;
+    color: $colorText;
+    padding-bottom: 263px;
+  }
+}
+
+.tab__link:hover {
+  text-decoration: underline;
+}
+
+.tab__element:first-child {
+  content: '';
+  border-right: 3px solid $secondaryColor;
+  padding-right: 8px;
+}
+
+.tab__element:nth-child(3) {
+  content: '';
+  border-left: 3px solid $secondaryColor;
+  padding-left: 8px;
+}
+
+.tab__element:nth-child(2) {
+  content: '';
+  padding: 0px 8px;
+}
+
+.picture_sz73 {
+  display: block;
+  width: 73px;
+  height: 74px;
+  margin: 0 auto;
+}
+
+// ----------seePlaces-flex---------------
+
+.seePlaces-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 43px;
+  flex-wrap: nowrap;
+  margin-top: 263px;
+}
+
+.seePlaces-contener {
+  display: flex;
+  flex-direction: column;
+  gap: 78px;
+  flex-wrap: nowrap;
+}
+
+.picture_sz564 {
+  width: 564px;
+  height: 776px;
+}
+
+.picture_sz418 {
+  width: 418px;
+  height: 322px;
+}
+
+.picture_mb78 {
+  margin-bottom: 78px;
+}
+
+.seePlaces__content {
+  max-width: 599px;
+  display: flex;
+  gap: 46px;
+  flex-wrap: wrap;
+}
+
+.seePlaces-link {
+  max-width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content:  flex-end;
+  margin-top: 30px;
+}
+
+.seePlaces__subtitle {
+  max-width: 235px;
+  font-size: 36.4px;
+  line-height: 50px;
+  font-weight: 700;
+  text-decoration: underline;
+  letter-spacing: -0.025em;
+  color: $colorText;
+}
+
+.seePlaces__text {
+  max-width: 317px;
+  font-family: 'Lato','sans-serif';
+  font-size: 16.7px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+  color: $colorText;
+}
